@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css"> 
+	<link rel="stylesheet" type="text/css" href="css/style.css">	
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">	
+	
+</head>
+</head>
+<body>
+
+	<div class="banner">
+		<div class="banner_band">
+			<div id="logo">
+				<img src="img/logo.png" />
+			</div>
+			<div id="logo_det">
+			 	<h1>SECRET AGENT SUPPLY INC.</h1>	
+			</div>	
+		</div>
+	</div>
+
+	<header>
+	
+			<div class="header_box">
+				<h3>NEW ARRIVAL</h3>
+				<h1>SPORTS BIKES AND</h1>
+				<h2>MOTORCYCLES</h2>
+			</div>
+		
+	</header>	
+
+	<nav class="topnav" id="myTopnav">
+		<ul>
+			<li>Home</li>
+			<li>Eyewear</li>		
+			<li>Gadgets</li>
+			<li>Vehicles</li>
+			<li>Classes</li>
+			<li>Contacts</li>
+			<li class="icon" onclick="myFunction()">&#9776;</li>
+		</ul>
+		
+	</nav>	
+
+	<div class="container">
+		<div class="row">
+			<div class="image_and" id="ep">
+				<div>
+					<img  id="pen" src="img/pen.png" height="162">
+				</div>
+				<div class="image_desc">
+					<h2>Exploding Pen</h2>
+				</div>
+			</div>
+			<div class="image_and" id="cw">
+				<div>
+					<img  id="watch" src="img/watch.png">
+				</div>
+				<div class="image_desc">
+					<h2>Cellular Watch</h2>
+				</div>
+			</div>
+			<div class="image_and" id="tg">
+				<div>
+					<img id="glasses" src="img/glasses.png">
+				</div>
+				<div class="image_desc">
+					<h2>Thermal Glasses</h2>
+				</div>
+			</div>
+		</div>
+		
+		<div class="rest">
+			<div class="boxes">
+				<h4 id="location">Location</h4>
+			</div>
+			<div class="boxes">	
+				<h4 id="hours">Hours</h4>
+			</div>			
+		</div>	
+
+		<div class="rest">
+			<div class="no_boxes">
+				<h2>-47.346436, 84.32354</h2>
+			</div>
+			<div class="no_boxes" id="time">
+				<h2>0800 - 1800</h2>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<div id="footer">
+			<h1>Copyright Secret Agent Supply Inc.</h1>
+		</div>
+	</footer>	
+
+<script>
+	function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+</body>
+</html>

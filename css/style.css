@@ -1,0 +1,231 @@
+
+
+html,
+body {
+	font-family: Helvetica;
+	font-size: 18px;
+}
+
+header {
+	
+}
+.banner {
+	background-color: black;
+	width: 100%;
+}
+
+.banner_band {	
+	display: flex;
+	justify-content: flex-start;
+	align-content: center;
+	align-items: center;
+	background-color: black;	
+	margin-left: 12rem;
+//	height: 2.23rem;
+}	
+
+
+#logo > img {	
+	width: auto;
+	height: 1.5rem;	
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+}
+
+#logo_det {
+	display: inline-flex;
+	color: white;
+	padding-top: 0.66rem;	
+	padding-bottom:  0.66rem;	
+	font-size:  1rem;
+}
+
+header {
+	background-image: url("../img/moto.jpeg");
+	height: 25rem;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+
+}
+
+.header_box {
+	background-color: black;
+	color: white;
+	position: relative;
+	left: 9rem;
+	top: 9rem;
+	width: 26rem; 
+	height: 10rem;
+//	padding: 0rem 3rem 3rem 3rem;
+
+}
+
+
+.header_box h1 {
+	font-size: 2rem;
+	font-weight: bold;	
+	padding: 0.25rem 3rem 0rem 3rem;	
+}
+
+.header_box h2 {
+	font-size: 2rem;
+	font-weight: bold;	
+	padding: 0.25rem 3rem 2rem 3rem;
+}
+ 
+
+.header_box h3 {
+	font-size:  1rem;
+	font-weight: bold;
+	padding: 2rem 3rem 0rem 3rem;
+}
+
+nav {
+	background-color: firebrick;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+//	overflow: hidden;
+}
+
+nav li {
+//	display: inline-block;
+	float: left;
+	margin: 0rem 1.66rem;
+	padding:  0.75rem;
+//	padding-bottom: 0.55rem;
+	color: white;
+	font-size: 1.25rem;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	width: 960px;
+	justify-content: space-around;
+	left: 7rem;
+
+}
+
+.row	{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;	
+}
+
+.image_and {
+	background-color: white;
+	height: 15rem;
+	width: 30%;
+	border: 4px solid black;
+	padding: 1rem;
+	margin: 3rem 0rem;
+	margin: 3rem 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	position: relative;
+}
+
+#ep {
+	margin-left: 0em;
+	margin-right: 2em;
+}
+
+#tg {
+	margin-right: 0em;
+	margin-left: 2em;
+}
+
+ 
+ #pen {
+	height: 9rem;
+	width: auto;
+	padding: 2rem 0rem;
+	position: absolute;
+	top: 2rem;
+ 	left: 2.7rem; 	
+ 	padding-bottom: 2rem;
+}	
+
+#watch {
+	height: 9rem;
+	width: auto;
+	position: absolute;
+	top: 2rem;
+	left: 3.8rem;
+}
+
+#glasses {
+	width: 9rem;
+	height: auto;
+	position: absolute;
+	top: 4.4rem;
+	right: 50px;	
+}
+
+.image_desc {
+	background-color: black;
+	color: white;
+	font-size: 1rem;
+	padding: 0.5rem 1.2rem;
+	border : 1px solid black;
+	text-align: center;
+	margin: 0px;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	width: 85%
+}
+
+.rest {
+
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	padding: .2rem 0rem;
+}
+
+.boxes {
+	width: 35%;
+	font-size: 1.2rem;
+	padding: 1rem 1rem 1rem 2rem;
+	background-color: black;
+	color: white;
+	display: inline-block;
+//  margin-left: 1rem;
+}
+
+
+ #time {
+ 	position: relative;
+ 	left: -3rem;
+ }
+
+.no_boxes {
+	width: 35%;
+	display: inline-block;
+	font-size: 1rem;
+}
+
+
+footer {
+	height: 5rem;
+	background-color: black;
+	position: relative;
+	margin-top: 4rem;
+	display: flex;
+
+}
+
+#footer {
+	color: white;
+	position: absolute;
+	top: 2rem;
+	left: 6rem;
+	font-size: 1rem;
+	text-align: left;
+}
